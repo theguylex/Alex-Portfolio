@@ -460,7 +460,6 @@ span {
         padding: 1rem 3%;
         background: white;
         border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-        /*display: none;*/
         transition: all .8s ease;
     }
 
@@ -521,3 +520,9 @@ span {
         grid-template-columns: repeat(1,1fr);
     }
 }
+
+@media(max-width:550px){
+    .home p{
+        width: 350px;
+    }
+} 
