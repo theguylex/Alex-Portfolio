@@ -70,6 +70,7 @@ body {
 #menu-icon {
     font-size: 3.6rem;
     color: var(--main-color);
+    display: none;
 }
 
 section {
@@ -442,5 +443,75 @@ span {
 
     section {
         padding: 10rem 3% 2rem;
+    }
+}
+
+@media(max-width:895px){
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+        display: none;
+    }
+
+    .navbar .active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: black;
+    }
+
+    .home {
+        flex-direction: column;
+        margin: 5rem 4rem;
+    }
+
+    .home p {
+        width: 500px;
+    }
+
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-img img {
+        width: 60vw;
+        margin-top: 4rem;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .about-content {
+        margin: 0 2rem 4rem;
+    }
+
+    .about img {
+        width: 64vw;
+    }
+
+    .projects h2 {
+        margin-bottom: 3rem;
+    }
+
+    .projects-container {
+        grid-template-columns: repeat(1,1fr);
     }
 }
