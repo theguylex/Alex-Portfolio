@@ -525,4 +525,14 @@ span {
     .home p{
         width: 350px;
     }
-} 
+}
+
+@media(max-width:320px){
+    #mq-320 {
+        font-size: 4rem;
+    }
+
+    .home p {
+        width: 280px;
+    }
+}
