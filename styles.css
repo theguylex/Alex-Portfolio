@@ -449,17 +449,23 @@ span {
 @media(max-width:895px){
     #menu-icon {
         display: block;
+        cursor: pointer;
     }
 
     .navbar {
         position: absolute;
         top: 100%;
-        left: 0;
-        width: 100%;
+        left: -40%;
+        width: 40%;
         padding: 1rem 3%;
         background: white;
         border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-        display: none;
+        /*display: none;*/
+        transition: all .8s ease;
+    }
+
+    .navbar.open {
+        left: 0;
     }
 
     .navbar .active {
