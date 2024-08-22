@@ -368,3 +368,7 @@ span {
     align-items: baseline;
     padding: 5rem;
 }
+
+.contact {
+    background-color: var(--second-bg-color);
+}
