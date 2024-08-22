@@ -409,3 +409,23 @@ span {
 .contact form .btn {
     margin-top: 2rem;
 }
+
+@media(max-width:1285px){
+    html {
+        font-size: 55%;
+    }
+    
+    .projects-container {
+        padding-bottom: 7rem;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0.5rem;
+    }
+    
+    .home p {
+        width: 700px;
+    }
+
+    .home img {
+        width: 32vw;
+    }
+}
