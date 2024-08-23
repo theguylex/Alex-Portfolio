@@ -308,6 +308,11 @@ span {
     margin: 2rem 0rem;
 }
 
+.about-content p span {
+    color: black;
+    display: none;
+}
+
 .about-content .text-animation span::before {
     content: "Web Developer";
     color: var(--main-color);

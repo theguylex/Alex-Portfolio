@@ -6,3 +6,8 @@ menuIcon.addEventListener('click', function(){
     navbar.classList.toggle('open');
 });
 
+
+// let newAbtTxt = document.getElementById('moreTxt');
+// document.getElementById('more').addEvenetListener('click', function() {
+//     newAbtTxt.style.display = 'block';
+// });
