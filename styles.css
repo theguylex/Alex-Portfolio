@@ -358,12 +358,47 @@ span {
     transition: 0.3s ease;
 }
 
+#projectsBox1 {
+    background: url("/images/Gallery\ photo1.png") no-repeat center center/cover;
+}
+
+#projectsBox2{
+    background: url("/images/Gallery\ photo2.png") no-repeat center center/cover;
+}
+#projectsBox3{
+    background: url("/images/Gallery\ photo3.png") no-repeat center center/cover;
+}
+#projectsBox4{
+    background: url("/images/Gallery\ photo4.png") no-repeat center center/cover;
+}
+#projectsBox5{
+    background: url("/images/Gallery\ photo5.png") no-repeat center center/cover;
+}
+#projectsBox6{
+    background: url("/images/Gallery\ photo6.png") no-repeat center center/cover;
+}
+#projectsBox7{
+    background: url("/images/Gallery\ photo7.png") no-repeat center center/cover;
+}
+#projectsBox8{
+    background: url("/images/Gallery\ photo8.png") no-repeat center center/cover;
+}
+#projectsBox9{
+    background: url("/images/Gallery\ photo9.png") no-repeat center center/cover;
+}
+
+.projects-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50%;
+}
+
 .projects-box:hover {
-    background: var(--main-color);
+    /*background: var(--main-color);*/
     color: white;
-    /*transform: scale(1.03);*/
     transform: translateY(-3px);
     box-shadow: 0 0 2.5rem grey;
+    font-size: 1.5rem;
+    transition: all .8s ease;
 }
 
 
