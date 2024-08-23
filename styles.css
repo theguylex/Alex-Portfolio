@@ -202,7 +202,7 @@ span {
     position: absolute;
     width: calc(100% + 8px);
     /* height: 100%; */
-    height: 4.6rem;
+    height: 5.4rem;
     /*border: 1px solid black;*/
     border-left: 2px solid #f1f1f1;
     right: -8px;
@@ -226,11 +226,11 @@ span {
     }
     41%,
     60%{
-        content: 'Singer';
+        content: 'Tech Enthusiast';
     }
     61%,
     80%{
-        content: 'Tech Enthusiast';
+        content: 'Singer';
     }
     81%,
     100%{
@@ -420,6 +420,10 @@ span {
 @media(max-width:1285px){
     html {
         font-size: 55%;
+    }
+
+    .text-animation span::after {
+        height: 5.3rem;
     }
     
     .projects-container {
