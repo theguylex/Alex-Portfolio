@@ -38,4 +38,9 @@ document.getElementById('registration-form').addEventListener('submit', function
     }
 
     document.getElementById('validation-message').innerHTML = message;
-}); 
+});
+
+const validationMessage = document.getElementById('validation-message');
+validationMessage.style.fontSize = '4rem';
+validationMessage.style.color = 'var(--main-color)';
+validationMessage.style.textAlign = 'center';
