@@ -369,7 +369,7 @@ span {
 }
 
 #projectsBox1 {
-    background: url("/images/Gallery\ photo1.png") no-repeat center center/cover;
+    background: url("../images/Gallery\ photo1.png") no-repeat center center/cover;
 }
 
 #projectsBox2{
