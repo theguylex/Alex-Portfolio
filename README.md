@@ -15,6 +15,7 @@ This page serves as my personal portfolio page exhibiting my skills and experien
 *Create a functional burger-menu icon for smaller screens using CSS and JavaScript
 
 ## Screenshot of how it looks
+
 <img src="screenshot/Screenshot (91).png" alt="project-screen">
 <img src="screenshot/Screenshot (92).png" alt="project-screen">
 <img src="screenshot/Screenshot (93).png" alt="project-screen">
