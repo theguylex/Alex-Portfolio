@@ -594,6 +594,16 @@ span {
     }
 }
 
+@media(max-width:414px) {
+    .home-img img {
+        width: 70vw;
+    }
+
+    .about-img img {
+        width: 80vw;
+    }
+}
+
 @media(max-width:320px){
     #mq-320 {
         font-size: 4rem;
