@@ -278,8 +278,8 @@ span {
 
 .about-img img {
     position: relative;
-    width: 30vw;
-    height: 85vh;
+    width: 20vw;
+    height: 55vh;
     border-radius: 20rem;
     top: 1rem;
     cursor: pointer;
@@ -495,7 +495,11 @@ span {
     }
 
     .home img {
-        width: 32vw;
+        width: 25vw;
+    }
+
+    .about-img img {
+        width: 30vw;
     }
 }
 
@@ -559,7 +563,7 @@ span {
     }
 
     .home-img img {
-        width: 60vw;
+        width: 36vw;
         margin-top: 4rem;
     }
 
@@ -572,7 +576,7 @@ span {
     }
 
     .about img {
-        width: 64vw;
+        width: 34vw;
     }
 
     .projects h2 {
